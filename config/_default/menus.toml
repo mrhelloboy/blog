@@ -1,0 +1,46 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#menu-advanced-configuration
+# -------------------------------------------------------------------------------------
+
+[[main]]
+  identifier = "posts"
+  pre = ""
+  post = ""
+  name = "文章"
+  url = "/posts/"
+  title = ""
+  weight = 1
+  [main.params]
+    icon = "fa-solid fa-archive"
+[[main]]
+  identifier = "categories"
+  pre = ""
+  post = ""
+  name = "分类"
+  url = "/categories/"
+  title = ""
+  weight = 2
+  [main.params]
+    icon = "fa-solid fa-th"
+[[main]]
+  identifier = "tags"
+  pre = ""
+  post = ""
+  name = "标签"
+  url = "/tags/"
+  title = ""
+  weight = 3
+  [main.params]
+    icon = "fa-solid fa-tags"
+[[main]]
+  identifier = "github"
+  pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
+  post = ""
+  name = ""
+  url = "https://github.com/mrhelloboy"
+  title = "GitHub"
+  weight = ""
+  [main.params]
+    class = "text-center"
+    type = "mobile"
