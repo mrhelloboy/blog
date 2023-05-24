@@ -3,7 +3,7 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "吃苹果的喵"
+title = "吃苹果的喵 - SUPCat.cn"
 baseURL = "http://localhost:1313"
 theme = "FixIt"
 defaultContentLanguage = "zh-cn"

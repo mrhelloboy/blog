@@ -3,4 +3,4 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-baseURL = ""
+baseURL = "https://www.supcat.cn/"

@@ -12,7 +12,7 @@ keywords = ["linzhanqi", "Python", "技术", "编程", "读书", "Hugo Blog"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
-gitRepo = "https://github.com/mrhelloboy"
+gitRepo = "https://github.com/mrhelloboy/blog"
 # FixIt NEW | 0.2.0 date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
@@ -106,7 +106,7 @@ disableThemeInject = false
   # FixIt NEW | 0.2.0 whether to show copyright info
   copyright = true
   # FixIt NEW | 0.2.0 whether to show the author
-  author = true
+  author = false
   # Site creation year
   since = 2023
   # FixIt NEW | 0.2.12 Public network security only in China (HTML format is supported)
@@ -227,7 +227,7 @@ disableThemeInject = false
   # FixIt NEW | 0.2.0 whether to enable the fontawesome extended syntax
   fontawesome = true
   # FixIt NEW | 0.2.0 Default lisence of content.
-  license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  license = ''  # '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # whether to show link to Raw Markdown content of the content
   linkToMarkdown = true
   # FixIt NEW | 0.2.4 whether to show the full text content in RSS
@@ -288,7 +288,7 @@ disableThemeInject = false
     maxShownLines = 50
   # FixIt NEW | 0.2.14 Post edit
   [page.edit]
-    enable = true
+    enable = false
     # FixIt 0.2.15 | CHANGED Link for fork & edit
     # url = "/edit/branch-name/subdirectory-name" # base on `params.gitRepo`
     # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # full url
@@ -447,7 +447,7 @@ disableThemeInject = false
 # FixIt NEW | 0.2.14 GitHub banner in the top-right or top-left corner
 [githubCorner]
   enable = true
-  permalink = "https://github.com/mrhelloboy"
+  permalink = "https://github.com/mrhelloboy/blog"
   title = "在 GitHub 查看源码，欢迎 star"
   position = "right" # ["left", "right"]
 
