@@ -9,9 +9,9 @@
 
 # FixIt CHANGED | 0.2.14 Comment config
 [page.comment]
-  enable = true
+  enable = false
   [page.comment.valine]
-    enable = true
+    enable = false
     appId = "7HwTRT0Q0Tfrat6ugrT6P67c-gzGzoHsz"
     appKey = "mhTY1kuUmviCtQwkwOASfsfD"
     # placeholder = "ヾﾉ≧∀≦)o~ 有事請留言！\n評論功能以郵件作為通知方式！\n如有必要請填寫正確郵箱哦！"
@@ -35,7 +35,7 @@
     commentCount = true # FixIt NEW | 0.2.13
   # FixIt 0.2.14 | NEW Giscus comments config (https://giscus.app/)
   [page.comment.giscus]
-    enable = true
+    enable = false
     repo = "Lruihao/hugo-blog"
     repoId = "MDEwOlJlcG9zaXRvcnk0MDQzNDY3MDk="
     category = "General"
