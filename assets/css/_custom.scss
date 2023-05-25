@@ -5,13 +5,14 @@
 
 .header-title {
   font-family: MMT_H;
-//   font-size: 2rem !important;
-  font-weight: bold;
+  // font-size: 2rem !important;
+  // font-weight: bold;
 
   .logo {
     // min-height: 1.5em;
     // height: 1.5rem;
-    vertical-align: text-bottom;
+    vertical-align: sub;
+    margin-bottom: -0.18rem;
   }
 
   .header-title-text {
@@ -93,14 +94,18 @@
 // Custom font
 @font-face {
   font-family: MMT_H;
-  src: url('/fonts/SmileySans-Oblique.ttf.woff2');
-  font-display: swap;
+  // src: url('/fonts/SmileySans-Oblique.ttf');
+  // src: url('/fonts/MFYuanQiPaoPao_Noncommercial-Regular.ttf');
+  src: url('/fonts/MFBoHeHaiYan_Noncommercial-Regular.ttf');
+  font-display: auto;
 }
 
 @font-face {
   font-family: MMT_LRH;
-  src: url('/fonts/SmileySans-Oblique.ttf.woff2');
-  font-display: swap;
+  // src: url('/fonts/SmileySans-Oblique.ttf');
+  // src: url('/fonts/MFYuanQiPaoPao_Noncommercial-Regular.ttf');
+  src: url('/fonts/MFBoHeHaiYan_Noncommercial-Regular.ttf');
+  font-display: auto;
 }
 
 // ==============================
