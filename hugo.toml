@@ -1,6 +1,6 @@
 baseURL = 'https://supcat.cn/'
 languageCode = 'en-us'
-title = "SUPCat's Blog"
+title = "SUPCat"
 
 hasCJKLanguage = true
 paginate = 18
@@ -21,12 +21,12 @@ home = ["HTML", "Algolia"]
   # enableToTop = false
   description = "记录学习、生活的个人博客网站"
   [Params.hero]
-    img = "/images/hero/hero.jpg"
+    img = "/images/hero/hero.webp"
 
   # App icon config
   [Params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Seven Demo"
+    title = "SUPCat"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -40,10 +40,10 @@ home = ["HTML", "Algolia"]
   [Params.logo]
     # Image logo or Text logo
     # Recommended to set image as logo. (prefer)
-    img = '/images/logo.svg'
-    img_footer = '/images/logo-footer.svg'
-    text = 'Seven-Demo'
-    textColor = '#50d71e'
+    img = '/images/logo-light.svg'
+    img_footer = '/images/logo-dark.svg'
+    text = 'SUPCat'
+    textColor = '#00000'
 
   # Copyright 
   [Params.copyright]
