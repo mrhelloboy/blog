@@ -51,10 +51,10 @@ home = ["HTML", "Algolia"]
   [Params.logo]
     # Image logo or Text logo
     # Recommended to set image as logo. (prefer)
-    img = "/images/logo.svg"
+    img = "/images/logo-light.svg"
     img_dark = "/images/logo-dark.svg"
     img_footer = "/images/logo-dark.svg"
-    img_height = "" # eg: 64px
+    img_height = "2.5rem" # eg: 64px
     text = "Seven-Demo"
     textColor = "#50d71e"
 
