@@ -18,7 +18,8 @@ home = ["HTML", "Algolia"]
     mediaType = 'application/json'
 
 [Params]
-  # enableToTop = false
+  enableToTop = false
+  enableSearch = false
 
   [Params.home]
     # Customize the type of content to display up-to-date, 
@@ -54,9 +55,10 @@ home = ["HTML", "Algolia"]
     img = "/images/logo-light.svg"
     img_dark = "/images/logo-dark.svg"
     img_footer = "/images/logo-dark.svg"
-    img_height = "2.5rem" # eg: 64px
-    text = "Seven-Demo"
-    textColor = "#50d71e"
+    img_height = "2rem" # eg: 64px
+    footer_height = "1.5rem"
+    text = "SUPCat"
+    textColor = "#000"
 
 
   # Copyright 
@@ -98,9 +100,9 @@ home = ["HTML", "Algolia"]
     # see: https://gohugo.io/content-management/front-matter/#front-matter-variables
     params = ["tags"]
 
-    app_id = "995JRM5ZAU"
-    api_key = "4a1095e4b8c96d2baee42d4c64b16afa"
-    index = "hugo_theme_seven_demo"
+    app_id = ""
+    api_key = ""
+    index = ""
     # see: https://www.algolia.com/doc/api-reference/widgets/snippet/js/#about
     snippet_attr = "description"
     # see: https://www.algolia.com/doc/api-reference/widgets/highlight/js/#examples
