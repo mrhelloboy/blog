@@ -18,6 +18,8 @@ home = ["HTML", "Algolia"]
     mediaType = 'application/json'
 
 [Params]
+  description = "个人技术博客、学习笔记、知识分享及生活感想"
+
   enableToTop = false
   enableSearch = false
 
