@@ -117,7 +117,7 @@ home = ["HTML", "Algolia"]
     # https://waline.js.org/en/guide/features/pageview.html#use-alone
     alonePageview = false
     serverURL = "https://comment.supcat.cn/.netlify/functions/comment"
-    lang = "en"
+    lang = "zh"
     reaction = true
     search = true
     comment = true
