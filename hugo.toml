@@ -116,7 +116,7 @@ home = ["HTML", "Algolia"]
   [Params.waline]
     # https://waline.js.org/en/guide/features/pageview.html#use-alone
     alonePageview = false
-    serverURL = "https://seven-demo.comment.supcat.cn/.netlify/functions/comment"
+    serverURL = "https://comment.supcat.cn/.netlify/functions/comment"
     lang = "en"
     reaction = true
     search = true
